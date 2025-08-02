@@ -8,7 +8,7 @@ This website showcases my *skills, projects, timeline, blog, and achievements* �
 ## 👨‍💻 About Me
 
 🎓 Diploma in Computer Science Engineering  
-🏫 Suresh Gyan Vihar University, Bihar  
+🏫 Suresh Gyan Vihar University, jaipur
 🌐 Passionate about Web Development & Full-Stack Projects  
 📫 Contact: ashish08ranjan90@gmail.com  mob  9835889418
 
