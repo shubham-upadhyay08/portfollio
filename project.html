@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashish Ranjan | Projects</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/darkmode.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">🧠 Ashish's Projects</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        
+
+        <li><a href="projects.html">Projects</a></li>
+        
+      <div class="right-actions">
+        <button id="toggle-theme">🌗</button>
+        <div id="clock"></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- 🚀 Projects Gallery -->
+  <section class="projects-section">
+    <h1 class="section-title">My Projects</h1>
+    
+    <div class="filter-buttons">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="web">Web</button>
+      <button class="filter" data-filter="app">App</button>
+      <button class="filter" data-filter="ai">AI</button>
+    </div>
+
+    <div class="project-gallery">
+      <!-- Card 1 -->
+      <div class="project-card" data-category="web">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3></h3>
+          </div>
+          <div class="card-back">
+            <p>Learning platform with courses, quiz &  progress tracker.</p>
+            <!--<a href="assets/lms-project/index.html" target="_blank">View</a> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="project-card" data-category="app">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3>Number Guessing Game</h3>
+          </div>
+          <div class="card-back">
+            <p>Try to guess the number between 1 and 20.</p>
+           <a href="assets/no game/index.html"target="_blank">View</a>
+           <p>Game development project using HTML, CSS, and JavaScript.</p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="project-card" data-category="ai">
+        <div class="card-inner">
+          <div class="card-front">
+            <h3>E Commerse</h3>
+          </div>
+          <div class="card-back">
+            <p>AI-powered resume feedback and scoring system.</p>
+            <a href="assets/E Commerse/html/index.html"target="_blank">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+  <script src="js/darkmode.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>

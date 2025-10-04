@@ -1,0 +1,64 @@
+.profile-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile-info p {
+  margin: 6px 0;
+}
+
+.edit-btn, .resume-btn {
+  padding: 8px 16px;
+  margin-top: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.bar {
+  width: 100%;
+  height: 20px;
+  background: #ddd;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(to right, #f39c12, #f1c40f);
+  color: black;
+  text-align: right;
+  padding-right: 10px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.achievements ul, .activity-timeline ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+}

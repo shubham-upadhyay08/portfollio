@@ -1,0 +1,89 @@
+/* 📅 Timeline Section */
+.timeline-section {
+  padding: 100px 20px 60px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.timeline {
+  position: relative;
+  margin-top: 40px;
+  padding-left: 30px;
+  border-left: 3px solid #00f0ff;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  animation: fadeUp 0.7s ease-in-out forwards;
+  opacity: 0;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -9px;
+  top: 5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #00f0ff;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 4px rgba(0, 240, 255, 0.2);
+}
+
+.timeline-content {
+  background: #f8f9fa;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.timeline-content h3 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.timeline-content p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* 🌓 Dark Mode Support */
+body.dark-mode .timeline {
+  border-color: #4cc9f0;
+}
+
+body.dark-mode .timeline-item::before {
+  background: #4cc9f0;
+  border-color: #111;
+}
+
+body.dark-mode .timeline-content {
+  background: #1e1e1e;
+  color: #eee;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+
+body.dark-mode .timeline-content h3 {
+  color: #00f0ff;
+}
+
+body.dark-mode .timeline-content p {
+  color: #ccc;
+}
+
+/* ✨ Fade-in Animation */
+@keyframes fadeUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

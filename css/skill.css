@@ -1,0 +1,74 @@
+.skills-section, .cert-section {
+  padding: 100px 20px 60px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.skill h4 {
+  margin: 0 0 5px;
+  font-size: 1.1rem;
+  text-align: left;
+  color: #007bff;
+}
+
+.skill h4 i {
+  margin-right: 10px;
+  color: #00f0ff;
+}
+
+.skill-bar {
+  background: #e0e0e0;
+  border-radius: 30px;
+  overflow: hidden;
+  height: 25px;
+}
+
+.skill-level {
+  background: #00f0ff;
+  color: #000;
+  height: 100%;
+  text-align: right;
+  padding-right: 10px;
+  font-weight: bold;
+  line-height: 25px;
+  width: 0;
+  transition: width 1.5s ease-in-out;
+}
+
+/* Certifications */
+.cert-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.cert-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+/* 🌗 Dark Mode */
+body.dark-mode .skill h4 {
+  color: #00f0ff;
+}
+body.dark-mode .skill-bar {
+  background: #333;
+}
+body.dark-mode .skill-level {
+  background: #4cc9f0;
+  color: #000;
+}
+body.dark-mode .cert-list li {
+  color: #eee;
+  border-color: #555;
+}

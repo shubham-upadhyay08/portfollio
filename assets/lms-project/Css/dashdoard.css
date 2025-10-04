@@ -1,0 +1,56 @@
+.dashboard {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.dashboard h2 {
+  font-size: 2rem;
+  color: #184fe4e4;
+  margin-bottom: 2rem;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #e0e7ff;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  font-size: 2rem;
+  color: #345dce;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.quick-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.quick-links .btn {
+  background: #1e3a8a;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.quick-links .btn:hover {
+  background: #3b82f6;
+}

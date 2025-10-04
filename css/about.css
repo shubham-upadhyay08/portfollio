@@ -1,0 +1,93 @@
+/* 👤 About Section */
+.about-section {
+  padding: 100px 20px 60px;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.about-left img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #00f0ff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.about-right {
+  max-width: 600px;
+  text-align: left;
+}
+
+.about-right p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+/* 📊 Skills */
+.skills-section {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.skills-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #00f0ff;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  background: #ccc;
+  height: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+
+.progress-bar .fill {
+  height: 100%;
+  background: #00f0ff;
+  color: #000;
+  text-align: right;
+  padding-right: 10px;
+  font-weight: bold;
+  line-height: 20px;
+  transition: width 1s ease-in-out;
+}
+
+/* 🌗 Dark Mode Support */
+body.dark-mode .about-right p,
+body.dark-mode .skill label {
+  color: #ddd;
+}
+
+body.dark-mode .progress-bar {
+  background: #444;
+}
+
+body.dark-mode .progress-bar .fill {
+  background: #4cc9f0;
+  color: #000;
+}

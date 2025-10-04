@@ -1,0 +1,40 @@
+/* 🌗 Dark Theme Styles */
+body.dark-mode {
+  background: linear-gradient(-45deg, #0f0f0f, #1a1a1a, #121212, #2c2c2c);
+  color: #e0e0e0;
+}
+
+.dark-mode .navbar {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+.dark-mode .nav-links a {
+  color: #ddd;
+}
+
+.dark-mode .nav-links a:hover {
+  color: #90e0ef;
+}
+
+.dark-mode .logo {
+  color: #00f5d4;
+}
+
+.dark-mode .hero-content h1 {
+  color: #f8f9fa;
+}
+
+.dark-mode .btn {
+  background: #90e0ef;
+  color: #000;
+}
+
+.dark-mode .btn:hover {
+  background: #00f5d4;
+}
+
+/* Optional clock color */
+.dark-mode #clock {
+  color: #90e0ef;
+}
